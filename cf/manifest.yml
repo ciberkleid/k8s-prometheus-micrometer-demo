@@ -1,6 +1,0 @@
-applications:
-  - name: ((PCF_APP_NAME))
-    memory: ((PCF_APP_MEMORY))
-    instances : ((INSTANCES))
-    routes:
-      - route: ((PCF_APP_NAME)).cfapps.io
