@@ -47,7 +47,7 @@ class HelloController {
     String hello() throws UnknownHostException {
         final String hostName = InetAddress.getLocalHost().getCanonicalHostName();
         metrics.increment();
-        return "Hello world from " + hostName + "!\nCounter value: " + metrics.value();
+        return "Hello world from " + hostName + "!\nCounter value: " + metrics.value() + "\n";
     }
 }
 
